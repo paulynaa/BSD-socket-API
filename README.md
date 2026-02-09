@@ -1,11 +1,6 @@
 # BSD-socket-API
-# Laboratorinio darbo aprašymas
 
-## Darbo tikslas
-
-Sukurti programą C kalba, kuri naudoja lizdus (sockets), vienu metu aptarnauja kelis klientus ir naudoja įvairias su lizdais susijusias funkcijas.
-
-## Reikalavimai
+C programa, kuri naudoja lizdus (sockets), vienu metu aptarnauja kelis klientus ir naudoja įvairias su lizdais susijusias funkcijas.
 
 Programa turi naudoti šias BSD socket API funkcijas:  
 `select(2)`, `socket(2)`, `send(2)`, `recv(2)`, `close(2)`, `shutdown(2)`, `accept(2)`, `listen(2)`, `bind(2)`, `connect(2)`.
